@@ -6,24 +6,32 @@
  * Time: 9:01 PM
  */
 
-
-class MidtermProject
+class getCSV
 {
-    public $samplefile = SampleCVS . cvs;
 
-    public function ReadCSV(samplefile)
+
+    public static function ReadCSV(String $samplefile)
 {
-    $rfile = fopen(samplefile, "r");
-    $wordsTab = fgetcsv($rfile);
-    fclose($file);
-    return wordTab;
+    $rfile = fopen($samplefile, "r");
+    return $rfile;
 }
 
 
-    public function CSVtoT
+    public static function CSVtoArray(String $rfile)
     {
-
+        while (!feof($rfile))
+        {
+            $wordsTab[] = fgetcsv($rfile,1000);
+        }
+        fclose($rfile);
+        return $wordsTab;
     }
 
-
+    public static function printCSVarray(Array $wordstab)
+    {
+        $arraycsv=echo($wordstab);
+        return Sarraycsv;
+    }
    }
+
+   $samplefile='SampleCSV.csv';
