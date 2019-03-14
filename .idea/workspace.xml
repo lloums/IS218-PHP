@@ -8,7 +8,6 @@
       <change afterPath="$PROJECT_DIR$/clone2/PHPUnitExample/email.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/clone2/PHPUnitExample/src/Car.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/clone2/PHPUnitExample/src/Volvo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReadCSV.php" beforeDir="false" afterPath="$PROJECT_DIR$/ReadCSV.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clone2/PHPUnitExample" beforeDir="false" afterPath="$PROJECT_DIR$/clone2/PHPUnitExample" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clone2/PHPUnitExample/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/clone2/PHPUnitExample/Readme.md" afterDir="false" />
@@ -29,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ReadCSV.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            <state relative-caret-position="1003">
+              <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
               <folding>
                 <element signature="e#6#88#0#PHP" expanded="true" />
               </folding>
@@ -129,18 +128,18 @@
       <option name="presentableId" value="Default" />
       <updated>1552352386189</updated>
       <workItem from="1552352387489" duration="8146000" />
-      <workItem from="1552562510420" duration="1764000" />
+      <workItem from="1552562510420" duration="4879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9910000" />
+    <option name="totallyTimeSpent" value="13025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="762" y="0" width="781" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2552011" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2552011" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -177,8 +176,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ReadCSV.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        <state relative-caret-position="1003">
+          <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
           </folding>

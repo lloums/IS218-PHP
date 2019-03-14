@@ -32,6 +32,34 @@ class getCSV
         $arraycsv=echo($wordstab);
         return Sarraycsv;
     }
+    public static function BuildnFill($wordstab)
+    {
+        $html = '<table>';
+        $html .= '<tr>';
+        foreach($wordstab[0] as $key=>$value)
+        {
+            $html .= '<th>' . htmlspecialchars($key) . '</th>';
+
+        }
+        foreach( $wordstab as $key=>$value){
+            $html .= '<tr>';
+            foreach($value as $key2=>$value2){
+                $html .= '<td>' . htmlspecialchars($value2) . '</td>';
+            }
+            $html .= '</tr>';
+        }
+
+        // finish table and return it
+
+        $html .= '</table>';
+        return $html;
+    }
+    final class whatevs()
+    {
+      $samplefile='SampleCSV.csv';
+      csv:ReadCSV($samplefile);
+    }
+
    }
 
-   $samplefile='SampleCSV.csv';
+
